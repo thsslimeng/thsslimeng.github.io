@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+body {
+	background-image:url(background.png);
+	Font-family: 'courier new', 'heiti sc', 'microsoft yahei',/*Helvetica, Tahoma, Arial, STXihei, '华文细黑', 'Microsoft YaHei', '微软雅黑', SimSun, '宋体', Heiti, '黑体',*/ sans-serif;
+	font-size: 12px;
+}
+
+#container {
+  margin: auto;
+  width: 850px;
+  height:1350px;
+}
+
+#header {
+  float: left;
+  width: 850px;
+  height: 119px;
+  clear:both;
+}
+
+#title {
+  float: left;
+  width: 463px;
+  height: 104px;
+}
+
+#title h1 {
+  display: block;
+  float: left;
+  width: 463px;
+  height: 104px;
+  text-indent: -9999px;
+}
+
+#title h1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/title.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#leftsidebar {
+	float:left;
+	width: 200px;
+	height: 1130px;
+	background-color: #11171C;
+}
+
+#profile {
+	width:200px;
+	height:360px;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	border-bottom-color:#666;
+}
+
+#photo {
+	width:200px;
+	padding-top:58px;
+	padding-left:44px;
+}
+
+#word-info {
+	color:white;
+	text-align:center;
+}
+#word-info #name{
+	font-size:24px;
+	font-weight:bold;
+	padding-bottom:8px;
+	padding-top:4px;
+}
+
+#follow {
+	padding-top:20px;
+	padding-left:44px;
+}
+
+#follow a:hover {
+	background-image: url(images/weixin-o.png);
+  	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.navigation{
+	color:white;
+	padding-top:60px;
+	padding-bottom:30px;
+	text-align:left;
+	text-indent:100px;
+}
+
+.navigation a, .navigation h2{
+	display: block;
+	width: 199px;
+	height: 26px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: white;
+	line-height: 32px;
+}
+.navigation ul{
+	list-style-type:none;
+}
+
+a[title=home]{
+	background-image:url(images/home.png);
+}
+
+a[title=about]{
+	background-image:url(images/about-me.png);
+}
+a[title=contact]{
+	background-image:url(images/contact-me.png);
+}
+
+.navigation h2{
+	background-image: url(images/fenlei.png);	
+}
+
+.navigation a:hover{
+	color:#957D57
+}
+
+#content {
+	padding-top:58px;
+	padding-left:30px;
+	float:left;
+	width:620px;
+	height:1072px;
+	background-color:#FCF3E9
+}
+
+#content a{
+	color: black;
+	text-decoration:none;
+}
+
+#content a:hover {
+	color:#957D57
+}
+
+.mContent {
+	width:620px;
+	height:302px;
+}
+
+#footer {
+	width:850px;	
+}
