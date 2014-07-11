@@ -1,4 +1,6 @@
 // JavaScript Document
+var current = 0;
+
 $(document).ready(function(){
 	//前进后退键出现条件：
 	$(".scroll").mouseover(function(){
@@ -17,7 +19,7 @@ $(document).ready(function(){
 	"images/U10709P1505T2D2F46DT20140709100616.jpg",
 ];
 	
-	var current = 0;
+	
 	var itemWidth = 1000;
 	var slideItems = $(".slide-item");
 	var slideGroup = $(".slide-group");
@@ -95,9 +97,6 @@ $(document).ready(function(){
 	
 });
 
-
-
-	var current = 0;
 	var itemWidth = 1000;
 
 	function moveRight(){
