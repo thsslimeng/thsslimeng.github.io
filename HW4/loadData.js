@@ -1,7 +1,7 @@
 // JavaScript Document
 //载入评论
 $(document).ready(function(){
-var url = '/conmment.json';
+var url = './conmment.json';
 var currentPage = 1;
 var maxConmmentOnePage = 6;//每页最多评论条数
 var rawData = new Object();

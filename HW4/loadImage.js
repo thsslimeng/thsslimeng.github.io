@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var url = '/image.json';
+	var url = './image.json';
 
 	function processData(data){
 		var nlength = data["slide-item"].length;
